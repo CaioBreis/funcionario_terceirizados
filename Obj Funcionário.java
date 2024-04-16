@@ -1,11 +1,11 @@
 package enti;
 
-public class teste {
+public class funcionario {
     protected String nome;
     protected double salario;
     protected double valorH;
 
-    public teste(String nome, double salario, double valorH) {
+    public funcionario(String nome, double salario, double valorH) {
         this.nome = nome;
         this.salario = salario;
         this.valorH = valorH;
