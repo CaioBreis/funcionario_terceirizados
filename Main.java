@@ -22,7 +22,7 @@ package main;
                 double salario = sc.nextDouble();
                 System.out.println("Valor da Hora:");
                 double hora = sc.nextDouble();
-                vet[i] = new teste(nome, salario, hora);
+                vet[i] = new fucionario(nome, salario, hora);
                 sc.nextLine(); // Consumir quebra de linha
             }
 
@@ -44,7 +44,7 @@ package main;
                 double salario = sc.nextDouble();
                 System.out.println("valor da Hora:");
                 double hora = sc.nextDouble();
-                vet2[i] = new teste2(nome, salario, hora);
+                vet2[i] = new terceirizado(nome, salario, hora);
                 sc.nextLine(); // Consumir quebra de linha
             }
 
