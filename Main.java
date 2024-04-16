@@ -1,7 +1,7 @@
 package main;
 
-    import enti.teste;
-    import enti.teste2;
+    import enti.fucionario;
+    import enti.terceirizado;
 
     import java.util.Scanner;
 
@@ -13,7 +13,7 @@ package main;
             int numFuncionarios = sc.nextInt();
             sc.nextLine(); // Consumir quebra de linha
 
-            teste[] vet = new teste[numFuncionarios];
+            fucionario[] vet = new fucionario[numFuncionarios];
 
             for (int i = 0; i < vet.length; i++) {
                 System.out.println("Digite o nome:");
@@ -35,7 +35,7 @@ package main;
             int numTerceirizados = sc.nextInt();
             sc.nextLine(); // Consumir quebra de linha
 
-            teste2[] vet2 = new teste2[numTerceirizados];
+            terceirizado[] vet2 = new terceirizado[numTerceirizados];
 
             for (int i = 0; i < vet2.length; i++) {
                 System.out.println("Digite o nome:");
