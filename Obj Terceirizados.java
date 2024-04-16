@@ -1,8 +1,8 @@
 package enti;
 
-public class teste2 extends teste {
+public class terceirizado extends funcionario {
 
-    public teste2(String nome, double salario, double valorH) {
+    public terceirizado(String nome, double salario, double valorH) {
         super(nome, salario, valorH);
     }
 
